@@ -4,15 +4,15 @@ export default function SignUpPage() {
 	return (
 		<main className="flex h-screen flex-col items-center bg-gradient-to-tr from-blue-400 to-sky-500">	
 			<div className="mt-40 flex w-full min-w-max max-w-md flex-col items-center rounded-lg bg-white">
-				<h1 className="mb-10 mt-14 text-3xl font-bold">Registrar</h1>
+				<h1 className="mb-10 mt-14 text-3xl font-bold">Registrar Empresa</h1>
 
 				<InputComponenet placeholder="Nome" />
-				<InputComponenet placeholder="Sobrenome" />
 				<InputComponenet placeholder="E-mail" />
 				<InputComponenet placeholder="Senha" />
+				<InputComponenet placeholder="Digite novamente sua senha" />
 
 				<button className="mb-4 mt-4 h-11 w-64 rounded-lg bg-gradient-to-tr from-blue-400 to-sky-500 font-bold text-white">
-					Criar Conta 
+					Registrar	
 				</button>
 				<a className="text-gray-700 mb-14" href="">
 					Criar Conta Demo	
